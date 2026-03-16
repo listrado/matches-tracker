@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Commander Match Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Commander Match Tracker</h1>
+
+        <div class="tabs">
+            <button class="tab-button" onclick="showTab('manage-commanders')">Manage Commanders</button>
+            <button class="tab-button" onclick="showTab('add-match')">Add Match</button>
+            <button class="tab-button" onclick="showTab('check-stats')">Check Stats</button>
+        </div>
+
+        <!-- GERENCIAR COMMANDERS -->
+        <div id="manage-commanders" class="tab">
+            <div class="card">
+                <h2>Create / Edit Commander</h2>
+
+                <input type="hidden" id="editingCommanderId" />
+
+                <div class="row">
+                    <div class="col">
+                        <div class="label">Commander Name</div>
+                        <input id="commanderName" placeholder="Enter commander name">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h3>Inputs</h3>
+                        <div id="inputsContainer"></div>
+                        <button type="button" class="secondary" onclick="addCommanderInputRow()">Add Input</button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <button onclick="saveCommander()">Save Commander</button>
+                    </div>
+                    <div class="col">
+                        <button class="secondary" onclick="resetCommanderForm()">Clear Form</button>
+                    </div>
+                </div>
+
+                <div id="commanderMessage" class="small"></div>
+            </div>
+
+            <div class="card">
+                <h2>Existing Commanders</h2>
+                <div id="commandersList"></div>
+            </div>
+        </div>
+
+        <!-- ADICIONAR MATCH -->
+        <div id="add-match" class="tab hidden">
+            <div class="card">
+                <h2>Add Match</h2>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="label">Choose Commander</div>
+                        <select id="matchCommanderSelect" onchange="renderMatchInputs()">
+                            <option value="">Select a commander</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="matchInputsContainer"></div>
+
+                <div class="row">
+                    <div class="col">
+                        <button onclick="saveMatch()">Save Match</button>
+                    </div>
+                </div>
+
+                <div id="matchMessage" class="small"></div>
+            </div>
+        </div>
+
+        <!-- STATS -->
+        <div id="check-stats" class="tab hidden">
+            <div class="card">
+                <h2>Check Stats</h2>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="label">Choose Commander</div>
+                        <select id="statsCommanderSelect" onchange="loadStats()">
+                            <option value="">Select a commander</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Overall Stats</h3>
+                    <div id="statsSummary"></div>
+                </div>
+
+                <div class="card">
+                    <h3>All Matches</h3>
+                    <div id="statsMatches"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

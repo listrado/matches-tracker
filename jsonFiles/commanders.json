@@ -1,0 +1,72 @@
+[
+  {
+    "id": "40e5200e-813e-42d8-968e-9437d8a971d9",
+    "name": "satoru gojo, helping teacher + itadori yuji, new student",
+    "inputs": [
+      {
+        "value": "gojo entered",
+        "type": "number"
+      },
+      {
+        "value": "gojo turns on board",
+        "type": "number"
+      },
+      {
+        "value": "gojo removal",
+        "type": "number"
+      },
+      {
+        "value": "yuji entered",
+        "type": "number"
+      },
+      {
+        "value": "yuji turns on board",
+        "type": "number"
+      },
+      {
+        "value": "yuji removal",
+        "type": "number"
+      },
+      {
+        "value": "outcome",
+        "type": "number"
+      },
+      {
+        "value": "xp",
+        "type": "number"
+      },
+      {
+        "value": "cursed energy",
+        "type": "scale_0_10"
+      },
+      {
+        "value": "land screwed",
+        "type": "checkbox"
+      },
+      {
+        "value": "game lenght",
+        "type": "scale_0_10"
+      },
+      {
+        "value": "win",
+        "type": "checkbox"
+      },
+      {
+        "value": "enemy 1 colors",
+        "type": "color_combo"
+      },
+      {
+        "value": "enemy 2 colors",
+        "type": "color_combo"
+      },
+      {
+        "value": "enemy 3 colors",
+        "type": "color_combo"
+      },
+      {
+        "value": "total lands",
+        "type": "number"
+      }
+    ]
+  }
+]
