@@ -68,5 +68,63 @@
         "type": "number"
       }
     ]
+  },
+  {
+    "id": "ab077f73-393f-43c0-8e64-2f75a8701f83",
+    "name": "Satoru Gojo, The Limitless Sorcerer",
+    "inputs": [
+      {
+        "value": "gojo entered",
+        "type": "number"
+      },
+      {
+        "value": "gojo turns on board",
+        "type": "number"
+      },
+      {
+        "value": "gojo removal",
+        "type": "number"
+      },
+      {
+        "value": "total lands",
+        "type": "number"
+      },
+      {
+        "value": "land screwed",
+        "type": "checkbox"
+      },
+      {
+        "value": "game lenght",
+        "type": "scale_0_10"
+      },
+      {
+        "value": "outcome",
+        "type": "number"
+      },
+      {
+        "value": "win",
+        "type": "checkbox"
+      },
+      {
+        "value": "enemy 1 colors",
+        "type": "color_combo"
+      },
+      {
+        "value": "enemy 2 colors",
+        "type": "color_combo"
+      },
+      {
+        "value": "enemy 3 colors",
+        "type": "color_combo"
+      },
+      {
+        "value": "emblems",
+        "type": "scale_0_10"
+      },
+      {
+        "value": "exiles",
+        "type": "scale_0_10"
+      }
+    ]
   }
 ]

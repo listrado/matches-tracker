@@ -70,5 +70,101 @@
       "total lands": 8.0
     },
     "created_at": "2026-03-27 13:25:09"
+  },
+  {
+    "id": "43307453-37f5-4fce-9c3f-ac9ac2f8d728",
+    "commander_id": "40e5200e-813e-42d8-968e-9437d8a971d9",
+    "commander_name": "satoru gojo, helping teacher + itadori yuji, new student",
+    "values": {
+      "gojo entered": 3.0,
+      "gojo turns on board": 7.0,
+      "gojo removal": 0.0,
+      "yuji entered": 3.0,
+      "yuji turns on board": 4.0,
+      "yuji removal": 1.0,
+      "outcome": 2.0,
+      "xp": 2.0,
+      "cursed energy": "10+",
+      "land screwed": false,
+      "game lenght": "10+",
+      "win": false,
+      "enemy 1 colors": "red white black",
+      "enemy 2 colors": "red blue white black green",
+      "enemy 3 colors": "white black",
+      "total lands": 8.0
+    },
+    "created_at": "2026-03-31 15:56:52"
+  },
+  {
+    "id": "6eb022e5-9e79-4f1c-9f9c-6b59fc477a5b",
+    "commander_id": "40e5200e-813e-42d8-968e-9437d8a971d9",
+    "commander_name": "satoru gojo, helping teacher + itadori yuji, new student",
+    "values": {
+      "gojo entered": 4.0,
+      "gojo turns on board": 2.0,
+      "gojo removal": 0.0,
+      "yuji entered": 5.0,
+      "yuji turns on board": 1.0,
+      "yuji removal": 0.0,
+      "outcome": 3.0,
+      "xp": 0.0,
+      "cursed energy": "2",
+      "land screwed": true,
+      "game lenght": "6",
+      "win": false,
+      "enemy 1 colors": "green",
+      "enemy 2 colors": "no player",
+      "enemy 3 colors": "red blue green",
+      "total lands": 5.0
+    },
+    "created_at": "2026-04-01 10:49:13"
+  },
+  {
+    "id": "af7b1dc8-8ff4-4120-b27d-cfc905cd2801",
+    "commander_id": "40e5200e-813e-42d8-968e-9437d8a971d9",
+    "commander_name": "satoru gojo, helping teacher + itadori yuji, new student",
+    "values": {
+      "gojo entered": 3.0,
+      "gojo turns on board": 6.0,
+      "gojo removal": 1.0,
+      "yuji entered": 4.0,
+      "yuji turns on board": 2.0,
+      "yuji removal": 2.0,
+      "outcome": 2.0,
+      "xp": 0.0,
+      "cursed energy": "6",
+      "land screwed": false,
+      "game lenght": "10",
+      "win": false,
+      "enemy 1 colors": "black green",
+      "enemy 2 colors": "no player",
+      "enemy 3 colors": "red black green",
+      "total lands": 10.0
+    },
+    "created_at": "2026-04-06 16:01:38"
+  },
+  {
+    "id": "32695d7d-8814-4b02-aa67-2242aac4395f",
+    "commander_id": "40e5200e-813e-42d8-968e-9437d8a971d9",
+    "commander_name": "satoru gojo, helping teacher + itadori yuji, new student",
+    "values": {
+      "gojo entered": 3.0,
+      "gojo turns on board": 6.0,
+      "gojo removal": 0.0,
+      "yuji entered": 0.0,
+      "yuji turns on board": 0.0,
+      "yuji removal": 0.0,
+      "outcome": 2.0,
+      "xp": 0.0,
+      "cursed energy": "1",
+      "land screwed": true,
+      "game lenght": "9",
+      "win": false,
+      "enemy 1 colors": "black colorless",
+      "enemy 2 colors": "white black",
+      "enemy 3 colors": "red white green",
+      "total lands": 7.0
+    },
+    "created_at": "2026-04-07 10:49:47"
   }
 ]
