@@ -190,5 +190,26 @@
       "total lands": 7.0
     },
     "created_at": "2026-04-07 10:49:47"
+  },
+  {
+    "id": "d2b4e716-e8d1-4753-b3d7-58c74ba97a2f",
+    "commander_id": "ab077f73-393f-43c0-8e64-2f75a8701f83",
+    "commander_name": "Satoru Gojo, The Limitless Sorcerer",
+    "values": {
+      "gojo entered": 4.0,
+      "gojo turns on board": 4.0,
+      "gojo removal": 0.0,
+      "total lands": 8.0,
+      "land screwed": false,
+      "game lenght": "8",
+      "outcome": 2.0,
+      "win": false,
+      "enemy 1 colors": "blue",
+      "enemy 2 colors": "red blue white black",
+      "enemy 3 colors": "blue white black",
+      "emblems": "1",
+      "exiles": ""
+    },
+    "created_at": "2026-05-02 18:40:51"
   }
 ]
